@@ -31,7 +31,7 @@ const CartModal = () => {
         <>
             {!cartIsEmpty &&
                 <div className="checkout-container">
-                    <Button className="checkout-btn w-100 " onClick={handleShow} variant='dark' >
+                    <Button className="checkout-btn w-100 " onClick={handleShow} variant='light' >
                         Revisar pedido y enviar
                         <FontAwesomeIcon icon={faWhatsapp} className="ml-2 checkout-btn-whatsapp" />
                         <span className='items-added'>( {totalQuantity} )</span>

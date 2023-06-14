@@ -6,14 +6,14 @@
     margin: 10px;
     margin-top: 20px;
     position: relative;
-    background: #FDDF3A;
+    background: #FC4B08;
     box-shadow: 0 0 10px rgb(253, 223, 0.58);
     height: 200px;
 }
 
 .form-label {
-    color: #000000;
-    font-family: 'Neufreit';
+    color: white;
+    font-family: 'Chedros';
     font-weight: 600;
 }
 
@@ -22,14 +22,14 @@
     display: flex;
     justify-content: center;
     font-weight: 100;
-    font-family: 'Neufreit';
+    font-family: 'Chedros';
 
 }
 
 .fullFill-btn-container {
     display: flex;
     justify-content: center;
-    background: #FDDF3A;
+    background: #FC4B08;
     margin-top: 10px;
     box-shadow: 0 0 10px rgb(253, 223, 0.58);
     height: 3.25rem;

@@ -7,21 +7,21 @@ import './DeliveryOption.css';
 
 
 const DeliveryOption = (props) => {
-    
+
     moment.locale("es")
-    
+
     const isDeliveryDisabled = () => {
         const currentTime = moment();
         const deliveryStartTime = moment().hour(19).minute(0).second(0);
         const deliveryEndTime = moment().hour(23).minute(45).second(0);
         return currentTime.isAfter(deliveryStartTime) && currentTime.isBefore(deliveryEndTime);
     };
-    
+
     const getDeliveryLabel = () => {
         const currentTime = moment();
         const deliveryStartTime = moment().hour(19).minute(0).second(0);
         const deliveryEndTime = moment().hour(23).minute(45).second(0);
-        
+
         if (currentTime.isBefore(deliveryStartTime)) {
             const remainingTime = deliveryStartTime.locale("es").fromNow();
             return `Delivery a partir de las 19 (${remainingTime})`;
@@ -40,7 +40,7 @@ const DeliveryOption = (props) => {
                 </div>
                 <div className="fullFill-btn-container">
                     <Button
-                        variant="dark"
+                        variant="light"
                         className={`button-place ${props.fullFillment === 'Delivery' ? 'active' : ''}`}
                         size="sm"
                         onClick={() => props.onChangeFullFillment('Delivery')}
@@ -49,7 +49,7 @@ const DeliveryOption = (props) => {
                         {getDeliveryLabel()}
                     </Button>
                     <Button
-                        variant="dark"
+                        variant="light"
                         className={`button-place ${props.fullFillment === 'Retiro por el salon' ? 'active' : ''}`}
                         size="sm"
                         onClick={() => props.onChangeFullFillment('Retiro por el salon')}

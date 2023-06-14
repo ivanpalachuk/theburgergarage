@@ -1,42 +1,15 @@
 body {
-    background-color: black;
-    font-family: "Neufreit-Medium", sans-serif;
+    background-color: white;
+    font-family: "Chedros-Medium", sans-serif;
+    color: white;
 }
 
 @font-face {
-    font-family: 'Neufreit';
-    src: url("../public/fonts/Neufreit-ExtraBold.otf") format("opentype");
+    font-family: 'Chedros';
+    src: url("../public/fonts/CHEDROS/CHEDROS.ttf") format("opentype");
     font-weight: 100;
     font-style: normal;
 }
-
-@font-face {
-    font-family: 'Remingtong';
-    src: url("../public/fonts/vtRemingtonPortable.ttf") format("opentype");
-    font-weight: 2000;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Neufreit-light';
-    src: url("../public/fonts/Neufreit-Light.ttf") format("opentype");
-    font-weight: 500;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Neufreit-Regular';
-    src: url("../public/fonts/Neufreit-Regular.ttf") format("opentype");
-    font-weight: 100;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Neufreit-Medium';
-    src: url("../public/fonts/Neufreit-Medium.ttf") format("opentype");
-    font-weight: 100;
-    font-style: normal;
-}
-
-
 
 .navbar-brand {
     margin-right: 0

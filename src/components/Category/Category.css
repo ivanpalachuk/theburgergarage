@@ -6,7 +6,7 @@
     z-index: 1;
     height: 127px;
     justify-content: center;
-    padding-left: 18rem;
+    background-color: #FC4B08;
 }
 
 .categories-container.fixed {
@@ -14,7 +14,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: #000000;
+    background-color: #FC4B08;
     padding-top: 7px;
 }
 
@@ -39,14 +39,14 @@
     align-items: center;
     cursor: pointer;
     overflow: hidden;
-    border-color: #FDDF3A;
+    border-color: #white;
 }
 
 .category-label {
     position: relative;
     right: 9px;
     font-size: 13px;
-    color: #FDDF3A;
+    color: #white;
     width: 100px;
     text-align: center;
     margin-top: 2px;

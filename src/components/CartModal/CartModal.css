@@ -2,12 +2,12 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: black;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 10px 0;
-    
+
 }
 
 .checkout-btn {
@@ -18,15 +18,15 @@
     margin: 0 10px;
 }
 
-.checkout-btn-whatsapp{
-    margin-left:10px ;
+.checkout-btn-whatsapp {
+    margin-left: 10px;
     font-size: 25px;
 }
 
-.items-added{
+.items-added {
     position: relative;
-    bottom:13px;
-    color: white;
+    bottom: 13px;
+    color: FC4B08;
     font-size: small;
-    
+
 }

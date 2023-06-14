@@ -1,5 +1,5 @@
 .pay-container {
-    background: #FDDF3A;
+    background: #FC4B08;
     box-shadow: 0 0 10px rgb(253, 223, 0.58);
     margin-top: 1.5rem;
     padding-top: 0.5rem;
@@ -9,8 +9,8 @@
 }
 
 .pay-label {
-    color: #000000;
-    font-family: 'Neufreit';
+    color: white;
+    font-family: 'Chedros';
     font-weight: 600;
     margin: 8px;
     text-align: center;
@@ -19,12 +19,12 @@
 .pay-btn-container {
     display: flex;
     justify-content: center;
-    background: #FDDF3A;
+    background: #FC4B08;
     margin-top: 10px;
     height: 3.50rem;
     padding: 2px;
     width: 100%;
-        border-radius: 5px;
+    border-radius: 5px;
     margin-bottom: 2px;
 }
 

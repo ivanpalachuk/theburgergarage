@@ -20,18 +20,15 @@ function App() {
     return () => clearTimeout(timer);
   }, []);
 
-  amplitude.init('3a238081d8e941e64af49a4b3d52a473', undefined, { defaultTracking: { sessions: true, pageViews: true, formInteractions: true, fileDownloads: true }});
-
   return (
     <>
       {isLoading ? (
-        <div className="d-flex justify-content-center align-items-center" style={{ height: "100vh", background: "black" }}>
-          <Spinner animation="border" variant="dark" size="lg" />
+        <div className="d-flex justify-content-center align-items-center" style={{ height: "100vh", background: "white" }}>
+          <Spinner animation="border" variant="light" size="lg" />
         </div>
       ) : (
         <CartProvider>
           <Header />
-          <Welcome />
           <ItemListContainer />
           <CartModal />
           <Footer />

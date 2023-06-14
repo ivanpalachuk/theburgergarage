@@ -2,23 +2,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #FDDF3A;
+    background-color: #FC4B08;
     border-radius: 10px;
     height: 2.2rem;
     padding: 5px;
     width: 250px;
-   
-       
+
+
 }
 
 .quantity-counter {
     margin: 0 10px;
-    color: black;
+    color: white;
 }
 
 .btn-counter {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: FC4B08;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -26,7 +26,7 @@
     padding: 5px 10px;
 }
 
-.label-counter{
+.label-counter {
     margin-right: 10px;
-   
+
 }

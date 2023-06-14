@@ -29,7 +29,7 @@ const UserForm = () => {
                 phone = '542236749602';
                 break;
             default:
-                phone = '';
+                phone = '5492233470798';
                 break;
         }
         setPhoneNumber(phone);

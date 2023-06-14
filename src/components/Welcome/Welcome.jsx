@@ -53,15 +53,15 @@ function Welcome() {
                         <Modal.Title className="welcome-title">¿A qué sucursal vas a pedir?</Modal.Title>
                     </Modal.Header>
                     <Modal.Body className="welcome-body d-flex justify-content-center">
-                        <Button onClick={handleClose} variant="dark" className="btn-welcome">
+                        <Button onClick={handleClose} variant="light" className="btn-welcome">
                             EDISON
                         </Button>
                         {!isMondayInArgentina() &&
-                            <Button onClick={handleClose} variant="dark" className="btn-welcome">
+                            <Button onClick={handleClose} variant="light" className="btn-welcome">
                                 CONSTITUCION
                             </Button>
                         }
-                        <Button onClick={handleClose} variant="dark" className="btn-welcome">
+                        <Button onClick={handleClose} variant="light" className="btn-welcome">
                             CENTRO
                         </Button>
                     </Modal.Body>

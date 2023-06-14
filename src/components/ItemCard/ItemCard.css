@@ -5,21 +5,21 @@
     padding: 1rem;
     margin: 0.6rem;
     position: relative;
-    background: #FDDF3A;
+    background: #FC4B08;
     max-width: 30rem;
     min-height: 10rem;
     max-height: 15rem;
 }
 
 .item-card-title {
-    font-family: 'Neufreit';
+    font-family: 'Chedros';
     font-weight: bold;
 }
 
 .item-card-text {
-    font-family: "Neufreit-Medium";
+    font-family: "Chedros";
     font-size: small;
-    background: #FDDF3A;
+    background: #FC4B08;
     border: none;
 }
 

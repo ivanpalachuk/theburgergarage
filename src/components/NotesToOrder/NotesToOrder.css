@@ -1,18 +1,18 @@
 .note-to-order:focus {
     height: 80px;
-    background-color: black;
+    background-color: white;
     color: aliceblue;
     text-align: center;
     border: none;
 }
 
 .dropdown-note {
-    background-color: black;
+    background-color: white;
 }
 
 .btn-note-ok {
     width: 100%;
-    background-color: #FDDF3A;
-    color: black;
+    background-color: #FC4B08;
+    color: white;
     margin-top: 5px !important
 }

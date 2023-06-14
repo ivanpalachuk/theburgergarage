@@ -40,7 +40,7 @@ function ItemCard(props) {
 
             <div style={{ display: "flex", alignItems: "center" }}>
               {!isCart && (
-                <Button onClick={handleClick} variant="dark">
+                <Button onClick={handleClick} variant="light">
                   <FontAwesomeIcon
                     icon={faShoppingCart}
                     style={{ marginRight: "10px" }}

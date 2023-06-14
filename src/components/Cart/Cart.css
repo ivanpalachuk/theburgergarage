@@ -1,15 +1,15 @@
 .checkout-title {
-    color: #FDDF3A;
-    font-family: 'Neufreit';
+    color: #FC4B08;
+    font-family: 'Chedros';
     font-weight: 800;
     font-size: 1.75rem;
 }
 
 .checkout-quantity {
-    color: #FDDF3A;
+    color: #FC4B08;
     text-align: center;
     font-size: 30px;
-    border: 2px solid #FDDF3A;
+    border: 2px solid #FC4B08;
     border-radius: 5px;
 
 }

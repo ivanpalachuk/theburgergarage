@@ -12,21 +12,21 @@ const PayOptions = (props) => {
                 </div>
                 <div className="pay-btn-container">
                     <Button
-                        variant="dark"
+                        variant="light"
                         className={`button-place ${props.selectedPay === "Efectivo" ? "active" : ""}`}
                         size="sm"
                         onClick={() => props.onChangeSelectedPay("Efectivo")}>
                         Efectivo
                     </Button>
                     <Button
-                        variant="dark"
+                        variant="light"
                         className={`button-place ${props.selectedPay === "Mercado Pago" ? "active" : ""}`}
                         size="sm"
                         onClick={() => props.onChangeSelectedPay("Mercado Pago")} >
                         Mercado Pago
                     </Button>
                     <Button
-                        variant="dark"
+                        variant="light"
                         className={`button-place ${props.selectedPay === "Cuenta DNI" ? "active" : ""}`}
                         size="sm"
                         onClick={() => props.onChangeSelectedPay("Cuenta DNI")} >

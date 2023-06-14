@@ -2,12 +2,9 @@ import React, { useRef, useState, useEffect } from "react";
 import "./Category.css";
 
 import hamburguesasBg from "/images/categories/Hamburguesas.png"
-import milanesasBg from "/images/categories/milas.png"
-import veggieBg from "/images/categories/veggies.png"
-import kidsBg from "/images/categories/Kids.png"
+import postreBg from "/images/categories/Postres.png"
 import companionBg from "/images/categories/para_picar.png"
-import dipsBg from "/images/categories/Dips.png"
-import promosBg from "/images/categories/promos.png"
+
 
 
 function Category({ categories }) {
@@ -28,7 +25,7 @@ function Category({ categories }) {
     setOriginalPosition(categoriesOffsetTop);
 
     const handleScroll = () => {
-      
+
       const scrollTop = window.pageY || document.documentElement.scrollTop;
       if (scrollTop > categoriesOffsetTop) {
         categoriesElement.classList.add("fixed");
@@ -47,13 +44,13 @@ function Category({ categories }) {
   }, [originalPosition]);
 
   const backgroundImageMap = {
-    promos: promosBg,
+
     hamburguesas: hamburguesasBg,
-    milanesas: milanesasBg,
-    veggie: veggieBg,
-    kids: kidsBg,
+
+    postres: postreBg,
+
     companion: companionBg,
-    dips: dipsBg,
+
   };
 
   return (
