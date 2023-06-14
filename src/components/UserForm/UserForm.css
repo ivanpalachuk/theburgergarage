@@ -1,0 +1,50 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    margin: 10px;
+    margin-top: 20px;
+    position: relative;
+    background: #FDDF3A;
+    box-shadow: 0 0 10px rgb(253, 223, 0.58);
+    height: 200px;
+}
+
+.form-label {
+    color: #000000;
+    font-family: 'Neufreit';
+    font-weight: 600;
+}
+
+.form-control {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+    font-family: 'Neufreit';
+
+}
+
+.fullFill-btn-container {
+    display: flex;
+    justify-content: center;
+    background: #FDDF3A;
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgb(253, 223, 0.58);
+    height: 3.25rem;
+    padding: 2px;
+    width: 100%
+}
+
+.btn.button-place {
+    flex-grow: 0.75;
+    width: 100%
+}
+
+.btn.button-place.active {
+    background-color: #25D366;
+    color: #fff;
+    outline: none;
+    box-shadow: none
+}

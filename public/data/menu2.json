@@ -1,0 +1,509 @@
+{
+    "categories": {
+        "promos": [
+            {
+                "id": 9991,
+                "name": "Promo Brodas",
+                "description": "Dos brodas dobles con papas",
+                "price": 3800,
+                "picture": "../images/promos/promo-brodas.png",
+                "size": [
+                    {
+                        "name": "Promo 2 burger dobles",
+                        "price": 0,
+                        "id": 99910
+                    },
+                    {
+                        "name": "Extra Carne 1 burger",
+                        "price": 500,
+                        "id": 99911
+                    },
+                    {
+                        "name": "Extra Carne 2 burger",
+                        "price": 1000,
+                        "id": 99912
+                    }
+                ]
+            },
+            {
+                "id": 9994,
+                "name": "Promo DobleCheese",
+                "description": "Dos burgers dobles con cheedar y salsa cuarto con papas",
+                "price": 3500,
+                "picture": "../images/promos/promo-doblecheese.png",
+                "size": [
+                    {
+                        "name": " 2 Dobles",
+                        "price": 0,
+                        "id": 99920
+                    },
+                    {
+                        "name": "Extra Carne 1 burger",
+                        "price": 500,
+                        "id": 99941
+                    },
+                    {
+                        "name": "Extra Carne 2 burger",
+                        "price": 1000,
+                        "id": 99942
+                    }
+                ]
+            },
+            {
+                "id": 9992,
+                "name": "Promo TripleCheese",
+                "description": "Dos burgers triples con cheedar y salsa cuarto con papas",
+                "price": 4200,
+                "picture": "../images/promos/triple-cheeese.png",
+                "size": [
+                    {
+                        "name": "Triple",
+                        "price": 0,
+                        "id": 99920
+                    },
+                    {
+                        "name": "Extra Carne 1 burger",
+                        "price": 500,
+                        "id": 99921
+                    },
+                    {
+                        "name": "Extra Carne 2 burger",
+                        "price": 1000,
+                        "id": 99922
+                    }
+                ]
+            },
+            {
+                "id": 9993,
+                "name": "Promo Sampler",
+                "description": "Tres burger simples (Cheeseburger-Brodas-Fresca) con 300 gramos de papas y dos gaseosas",
+                "price": 4500,
+                "picture": "../images/promos/Sampler grande.png",
+                "size": [
+                    {
+                        "name": "Simples",
+                        "price": 0,
+                        "id": 99930
+                    },
+                    {
+                        "name": " 1 burger Doble",
+                        "price": 500,
+                        "id": 99931
+                    },
+                    {
+                        "name": "2 burger Dobles",
+                        "price": 1000,
+                        "id": 99932
+                    },
+                    {
+                        "name": "3 burger Dobles",
+                        "price": 1500,
+                        "id": 99933
+                    },
+                    {
+                        "name": "1 burger Triple",
+                        "price": 1000,
+                        "id": 999311
+                    },
+                    {
+                        "name": "2 burger Triples",
+                        "price": 2000,
+                        "id": 999322
+                    },
+                    {
+                        "name": "3  burger Triples",
+                        "price": 3000,
+                        "id": 999333
+                    }
+                ]
+            }
+        ],
+        "hamburguesas": [
+            {
+                "id": 40010,
+                "name": "Fresca",
+                "description": "Pan de papa, carne (blend 120gms), queso cheddar, lechuga, tomate y cebolla picadita",
+                "price": 1800,
+                "picture": "/images/burgers/Fresca.png",
+                "size": [
+                    {
+                        "name": "Simple",
+                        "price": 0,
+                        "id": 400100
+                    },
+                    {
+                        "name": "Doble",
+                        "price": 300,
+                        "id": 400102
+                    },
+                    {
+                        "name": "Triple",
+                        "price": 800,
+                        "id": 400103
+                    },
+                    {
+                        "name": "Cuádruple",
+                        "price": 1300,
+                        "id": 400104
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Brodas",
+                "description": "Blend de 120gr, cheddar, bacon, y salsa Cuarto en pan de papa.",
+                "price": 1900,
+                "picture": "../images/burgers/Brodas.png",
+                "size": [
+                    {
+                        "name": "Simple",
+                        "price": 0,
+                        "id": 201
+                    },
+                    {
+                        "name": "Doble",
+                        "price": 300,
+                        "id": 202
+                    },
+                    {
+                        "name": "Triple",
+                        "price": 800,
+                        "id": 203
+                    },
+                    {
+                        "name": "Cuádruple",
+                        "price": 1300,
+                        "id": 403
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Cheese Burger",
+                "description": "Blend 120gr, cheddar, y salsa Cuarto en pan de papa.",
+                "price": 1700,
+                "picture": "../images/burgers/Cheese.png",
+                "size": [
+                    {
+                        "name": "Simple",
+                        "price": 0,
+                        "id": 301
+                    },
+                    {
+                        "name": "Doble",
+                        "price": 300,
+                        "id": 302
+                    },
+                    {
+                        "name": "Triple",
+                        "price": 800,
+                        "id": 303
+                    },
+                    {
+                        "name": "Cuádruple",
+                        "price": 1300,
+                        "id": 304
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Blue Burger",
+                "description": "Blend de 120gr, cebolla caramelizada, rúcula fresca y salsa de queso azul en pan de papa.",
+                "price": 1800,
+                "picture": "../images/burgers/Blue Burger.png",
+                "size": [
+                    {
+                        "name": "Simple",
+                        "price": 0,
+                        "id": 501
+                    },
+                    {
+                        "name": "Doble",
+                        "price": 300,
+                        "id": 502
+                    },
+                    {
+                        "name": "Triple",
+                        "price": 800,
+                        "id": 503
+                    },
+                    {
+                        "name": "Cuádruple",
+                        "price": 1300,
+                        "id": 504
+                    }
+                ]
+            },
+            {
+                "id": 40020,
+                "name": "Cheese Eggs Box",
+                "description": "Pan de papa,carne (blend de 120gms), doble queso cheddar y huevo a la plancha",
+                "price": 1800,
+                "picture": "/images/burgers/eggBurger.png",
+                "size": [
+                    {
+                        "name": "Simple",
+                        "price": 0,
+                        "id": 400200
+                    },
+                    {
+                        "name": "Doble",
+                        "price": 300,
+                        "id": 400202
+                    },
+                    {
+                        "name": "Triple",
+                        "price": 800,
+                        "id": 400203
+                    },
+                    {
+                        "name": "Cuadruple",
+                        "price": 1300,
+                        "id": 400204
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "name": "Fried Onion",
+                "description": "Blend doble de 120gr smasheada con cebolla y cheddar en pan de papa.",
+                "price": 2100,
+                "picture": "../images/burgers/Fried Onion.png",
+                "size": [
+                    {
+                        "name": "Doble",
+                        "price": 0,
+                        "id": 802
+                    },
+                    {
+                        "name": "Triple",
+                        "price": 500,
+                        "id": 803
+                    }
+                ]
+            }
+        ],
+        "milanesas": [
+            {
+                "id": 15,
+                "name": "Mila 420",
+                "description": "Mila de peceto, queso danbo, lechuga, tomate, huevo a la plancha y salsa Tasty Smoke en pan flat.",
+                "price": 1800,
+                "picture": "../images/burgers/Mila 420.png"
+            }
+        ],
+        "veggie": [
+            {
+                "id": 40030,
+                "name": "Fantastica Veggie",
+                "description": "Pan de remolacha, medallon veggie de hongos y quinoa , queso, tomate y mayonesa de palta.",
+                "price": 1900,
+                "picture": "../images/burgers/Veggie.png",
+                "size": [
+                    {
+                        "name": "Simple",
+                        "price": 0,
+                        "id": 40030
+                    }
+                ]
+            },
+            {
+                "id": 18,
+                "name": "Vegan Box NOT CO",
+                "description": "Medallon Not Co, muzza Not Co, lechuga, tomate, cebolla morada y mayo Not Co en pan de remolacha.",
+                "price": 2100,
+                "picture": "../images/burgers/Vegan Box.png",
+                "size": [
+                    {
+                        "name": "Simple",
+                        "price": 0,
+                        "id": 1800
+                    },
+                    {
+                        "name": "Doble",
+                        "price": 500,
+                        "id": 1802
+                    },
+                    {
+                        "name": "Triple",
+                        "price": 1000,
+                        "id": 1803
+                    },
+                    {
+                        "name": "Cuádruple",
+                        "price": 1500,
+                        "id": 403
+                    }
+                ]
+            }
+        ],
+        "companion": [
+            {
+                "id": 23,
+                "name": "Bandeja de papas",
+                "description": "300gms de papas con un mistufi espectacular.Incluye 2 salsas THE BOX",
+                "price": 1400,
+                "picture": "../images/companion/Papas fritas.png"
+            },
+            {
+                "id": 25,
+                "name": "Aros de Cebolla",
+                "description": "18 aros de cebolla crujiente. Incluye 2 salsas THE BOX",
+                "price": 1600,
+                "picture": "../images/companion/Aros de cebolla.png"
+            },
+            {
+                "id": 40025,
+                "name": "Papas Fritas THE BOX",
+                "description": "Papas fritas con cheddar y panceta crujiente",
+                "price": 1600,
+                "picture": "../images/companion/Papas_cheddar.png"
+            }
+        ],
+        "bebidas": [
+            {
+                "gaseosas": [
+                    {
+                        "id": 501,
+                        "name": "Lata de Pepsi",
+                        "price": 500,
+                        "description": "Lata marca Pepsi 475cc"
+                    },
+                    {
+                        "id": 502,
+                        "name": "Lata de Pepsi Black",
+                        "price": 500,
+                        "description": "Lata marca Pepsi Black 475cc"
+                    },
+                    {
+                        "id": 503,
+                        "name": "Lata de 7up",
+                        "price": 500,
+                        "description": "Lata marca 7up 475cc"
+                    },
+                    {
+                        "id": 504,
+                        "name": "Lata de Mirinda",
+                        "price": 500,
+                        "description": "Lata marca Mirinda 475cc"
+                    },
+                    {
+                        "id": 505,
+                        "name": "Lata de Paso de los toros Pomelo",
+                        "price": 500,
+                        "description": "Lata marca Paso de los toros 475cc"
+                    }
+                ]
+            },
+            {
+                "aguas": [
+                    {
+                        "id": 506,
+                        "name": "Agua Saborizada Awafrut",
+                        "price": 500,
+                        "description": "Botellita Awafrut Manzana 475cc"
+                    },
+                    {
+                        "id": 507,
+                        "name": "Agua Saborizada Awafrut",
+                        "price": 500,
+                        "descriptioz": "Botellita Awafrut Pomelo 475cc"
+                    },
+                    {
+                        "id": 508,
+                        "name": "Agua Mineral Eco de los Andes",
+                        "price": 500,
+                        "description": "Botellita Eco de los Andes SIN GAS 475cc"
+                    },
+                    {
+                        "id": 522,
+                        "name": "Agua Mineral Eco de los Andes",
+                        "price": 500,
+                        "description": "Botellita Eco de los Andes CON GAS 475cc"
+                    }
+                ]
+            }
+        ],
+        "extras": [
+            {
+                "id": 7010,
+                "name": "Cebolla Caramelizada",
+                "description": "",
+                "price": 400
+            },
+            {
+                "id": 7020,
+                "name": "Cebolla Morada",
+                "description": "",
+                "price": 300
+            },
+            {
+                "id": 7030,
+                "name": "Lechuga",
+                "description": "",
+                "price": 300
+            },
+            {
+                "id": 7040,
+                "name": "Tomate",
+                "description": "",
+                "price": 300
+            },
+            {
+                "id": 7050,
+                "name": "Rucula",
+                "description": "",
+                "price": 200
+            },
+            {
+                "id": 7060,
+                "name": "Pepinillos",
+                "description": "",
+                "price": 300
+            },
+            {
+                "id": 7070,
+                "name": "Cheddar",
+                "description": "",
+                "price": 350
+            },
+            {
+                "id": 7080,
+                "name": "Bacon",
+                "description": "",
+                "price": 400
+            },
+            {
+                "id": 7090,
+                "name": "Huevo",
+                "description": "",
+                "price": 300
+            },
+            {
+                "id": 7100,
+                "name": "Provoleta",
+                "description": "",
+                "price": 500
+            },
+            {
+                "id": 7110,
+                "name": "Cebolla Crispy",
+                "description": "",
+                "price": 300
+            },
+            {
+                "id": 7120,
+                "name": "Queso Azul",
+                "description": "",
+                "price": 400
+            },
+            {
+                "id": 7130,
+                "name": "Salsa Criolla",
+                "description": "",
+                "price": 300
+            }
+        ]
+    }
+}

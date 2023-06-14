@@ -1,0 +1,99 @@
+.modal-content {
+    background-image: url("/images/fondo-addOns.png");
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.add-on-title {
+    font-family: 'Neufreit';
+    font-size: 25px;
+    color: #FDDF3A;
+}
+
+.add-on-description {
+    font-family: "Neufreit-Regular";
+    font-size: medium;
+    margin-bottom: 10px;
+    color: #FDDF3A
+}
+
+.add-on-header {
+    border-bottom: none;
+    color: yellow;
+    background-color: #000000;
+
+}
+
+.btn-close {
+    background: transparent url("/public/images/close-button.png") center/1.5rem auto no-repeat;
+    opacity: 1;
+}
+
+.add-to-cart-btn {
+    background-color: #FDDF3A;
+    color: #000000;
+    border-color: #FDDF3A;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.drops-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown button,
+.dropdown {
+    width: 250px;
+    margin: 1px;
+    background-color: #FDDF3A;
+    color: #000000;
+    border-color: #FDDF3A;
+    border-radius: 10px;
+
+}
+
+.dropdown-toggle:focus {
+    box-shadow: none;
+    background-color: #FDDF3A;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    background-color: black;
+    border-color: black;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+    background-color: black;
+    border-color: black;
+}
+
+.add-on-image-container {
+    width: 100%;
+    text-align: center;
+}
+
+.add-on-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.sampler-warning {
+    border: 1px green solid;
+    font-size: medium;
+    color: black;
+    text-align: center;
+    background-color: #FDDF3A;
+}

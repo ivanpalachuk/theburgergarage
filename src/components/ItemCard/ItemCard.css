@@ -1,0 +1,57 @@
+.item-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.6rem;
+    position: relative;
+    background: #FDDF3A;
+    max-width: 30rem;
+    min-height: 10rem;
+    max-height: 15rem;
+}
+
+.item-card-title {
+    font-family: 'Neufreit';
+    font-weight: bold;
+}
+
+.item-card-text {
+    font-family: "Neufreit-Medium";
+    font-size: small;
+    background: #FDDF3A;
+    border: none;
+}
+
+.item-card-img {
+    height: 6.50rem;
+    width: 6.50rem;
+    object-fit: cover;
+    margin-left: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+.btn-delete {
+    position: relative;
+    bottom: 110px;
+    left: 95px;
+    z-index: 1;
+    width: 25px;
+    height: 25px;
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-card-img-container {
+    position: relative;
+}
+
+@media (min-width: 720px) {
+    .item-card {
+        max-width: 25rem;
+        min-height: 15rem;
+        max-height: 15rem;
+    }
+}

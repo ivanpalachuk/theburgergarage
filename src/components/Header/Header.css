@@ -1,0 +1,10 @@
+.navbar-header {
+    background-color: black;
+    width: 100%;
+}
+
+@media (min-width: 720px) {
+    .navbar-header img {
+        width: 50%;
+    }
+}

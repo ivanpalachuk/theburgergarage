@@ -1,0 +1,41 @@
+.pay-container {
+    background: #FDDF3A;
+    box-shadow: 0 0 10px rgb(253, 223, 0.58);
+    margin-top: 1.5rem;
+    padding-top: 0.5rem;
+    border-radius: 5px;
+
+
+}
+
+.pay-label {
+    color: #000000;
+    font-family: 'Neufreit';
+    font-weight: 600;
+    margin: 8px;
+    text-align: center;
+}
+
+.pay-btn-container {
+    display: flex;
+    justify-content: center;
+    background: #FDDF3A;
+    margin-top: 10px;
+    height: 3.50rem;
+    padding: 2px;
+    width: 100%;
+        border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.btn.button-place {
+    flex-grow: 0.75;
+    width: 100%
+}
+
+.btn.button-place.active {
+    background-color: #25D366;
+    color: #fff;
+    outline: none;
+    box-shadow: none
+}

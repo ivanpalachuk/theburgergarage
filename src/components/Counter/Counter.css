@@ -1,0 +1,32 @@
+.counter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDDF3A;
+    border-radius: 10px;
+    height: 2.2rem;
+    padding: 5px;
+    width: 250px;
+   
+       
+}
+
+.quantity-counter {
+    margin: 0 10px;
+    color: black;
+}
+
+.btn-counter {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 5px 10px;
+}
+
+.label-counter{
+    margin-right: 10px;
+   
+}

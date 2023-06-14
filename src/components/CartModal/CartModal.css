@@ -1,0 +1,32 @@
+.checkout-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    
+}
+
+.checkout-btn {
+    background-color: #25D366;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin: 0 10px;
+}
+
+.checkout-btn-whatsapp{
+    margin-left:10px ;
+    font-size: 25px;
+}
+
+.items-added{
+    position: relative;
+    bottom:13px;
+    color: white;
+    font-size: small;
+    
+}

@@ -1,0 +1,13 @@
+.promo-drinks-container {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .promo-cervezas {
+        width: 100px !important;
+    }
+
+    .promo-gaseosas {
+        width: 75px !important;
+    }

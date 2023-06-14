@@ -1,0 +1,37 @@
+.place-container {
+    border-radius: 20px;
+    color: rgb(253, 223, 0.58);
+    box-shadow: 0 0 10px rgb(253, 223, 0.58);
+    padding-top: 5px;
+    min-width: 21rem;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0px 0px 3px 3px rgb(253, 223, 0.58);
+
+}
+
+.title-custom-font {
+    font-family: 'Neufreit';
+}
+
+.button-place {
+    margin: 3px
+}
+
+.overlay {
+    position: relative;
+    bottom: 40px;
+    left: 0;
+    z-index: 1;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-welcome {
+    background-color: black;
+    color: rgb(253, 223, 0.58);
+    font-weight: 800;
+}
