@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       {isLoading ? (
-        <div className="d-flex justify-content-center align-items-center" style={{ height: "100vh", background: "white" }}>
+        <div className="d-flex justify-content-center align-items-center" style={{ height: "100vh", background: "black" }}>
           <Spinner animation="border" variant="light" size="lg" />
         </div>
       ) : (

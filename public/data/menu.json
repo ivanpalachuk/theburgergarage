@@ -1,41 +1,13 @@
 {
       "categories": {
             "hamburguesas": [
-                  {
-                        "id": 1,
-                        "name": "Yankee",
-                        "description": "Doble medallon de carne de 120grs, doble cheddar por medallon, ketchup, mostaza, cebolla Brunoise",
-                        "price": 2300,
-                        "picture": "../images/burgers/yankee.jpg",
-                        "size": [
-                              {
-                                    "name": "Simple",
-                                    "price": 0,
-                                    "id": 101
-                              },
-                              {
-                                    "name": "Doble",
-                                    "price": 300,
-                                    "id": 102
-                              },
-                              {
-                                    "name": "Triple",
-                                    "price": 800,
-                                    "id": 103
-                              },
-                              {
-                                    "name": "Cuádruple",
-                                    "price": 1300,
-                                    "id": 104
-                              }
-                        ]
-                  },
+                  
                   {
                         "id": 2,
                         "name": "American Garage",
                         "description": "Doble Medallon carne 120gr, doble cheddar por medallon,tomate, lechuga, cebolla, salsa mil islas",
                         "price": 2300,
-                        "picture": "../images/burgers/american_garage.jpg",
+                        "picture": "../images/burgers/AmericanGarage.jpg",
                         "size": [
                               {
                                     "name": "Simple",
@@ -64,7 +36,94 @@
                         "name": "Royale",
                         "description": "Doble Medallon de Carne de 120gr, doble cheddar por medallon, bacon ahumado, cebolla caramelizada, huevo a la plancha, barbacoa",
                         "price": 2900,
-                        "picture": "../images/burgers/Untitled.jpg",
+                        "picture": "../images/burgers/Royale.jpg",
+                        "size": [
+                              {
+                                    "name": "Simple",
+                                    "price": 0,
+                                    "id": 301
+                              },
+                              {
+                                    "name": "Doble",
+                                    "price": 300,
+                                    "id": 302
+                              },
+                              {
+                                    "name": "Triple",
+                                    "price": 800,
+                                    "id": 303
+                              },
+                              {
+                                    "name": "Cuádruple",
+                                    "price": 1300,
+                                    "id": 304
+                              }
+                        ]
+                  },
+                  {
+                        "id": 4,
+                        "name": "Oklahoma",
+                        "description": "Doble Medallon de Carne de 120gr, doble cheddar por medallon, bacon ahumado, cebolla caramelizada, huevo a la plancha, barbacoa",
+                        "price": 2900,
+                        "picture": "../images/burgers/OKLAHOMA.jpg",
+                        "size": [
+                              {
+                                    "name": "Simple",
+                                    "price": 0,
+                                    "id": 301
+                              },
+                              {
+                                    "name": "Doble",
+                                    "price": 300,
+                                    "id": 302
+                              },
+                              {
+                                    "name": "Triple",
+                                    "price": 800,
+                                    "id": 303
+                              },
+                              {
+                                    "name": "Cuádruple",
+                                    "price": 1300,
+                                    "id": 304
+                              }
+                        ]
+                  },
+                  {
+                        "id": 5,
+                        "name": "Tasty Garage",
+                        "description": "Doble Medallon de Carne de 120gr, doble cheddar por medallon, bacon ahumado, cebolla caramelizada, huevo a la plancha, barbacoa",
+                        "price": 2900,
+                        "picture": "../images/burgers/TastyGarage.jpg",
+                        "size": [
+                              {
+                                    "name": "Simple",
+                                    "price": 0,
+                                    "id": 301
+                              },
+                              {
+                                    "name": "Doble",
+                                    "price": 300,
+                                    "id": 302
+                              },
+                              {
+                                    "name": "Triple",
+                                    "price": 800,
+                                    "id": 303
+                              },
+                              {
+                                    "name": "Cuádruple",
+                                    "price": 1300,
+                                    "id": 304
+                              }
+                        ]
+                  },
+                  {
+                        "id": 6,
+                        "name": "Cheese",
+                        "description": "Doble Medallon de Carne de 120gr, doble cheddar por medallon, bacon ahumado, cebolla caramelizada, huevo a la plancha, barbacoa",
+                        "price": 2900,
+                        "picture": "../images/burgers/Cheese.jpg",
                         "size": [
                               {
                                     "name": "Simple",
@@ -89,13 +148,75 @@
                         ]
                   }
             ],
+            "companion": [
+                  {
+                        "id": 22,
+                        "name": "Papas Fritas Garage",
+                        "description": "Tremendas fritas con cheddar,bacon,cebolla de verdeo,huevo",
+                        "price": 1200,
+                        "picture": "../images/companion/PapasGarage.jpg"
+                  },
+                  {
+                        "id": 23,
+                        "name": "Papas Fritas Crunch",
+                        "description": "Tremendas fritas con cheddar,bacon,cebolla de verdeo,huevo",
+                        "price": 1200,
+                        "picture": "../images/companion/PapasCrunch.jpg"
+                  },
+                  {
+                        "id": 24,
+                        "name": "Papas Cheddar Bacon",
+                        "description": "Tremendas fritas con cheddar,bacon,cebolla de verdeo,huevo",
+                        "price": 1200,
+                        "picture": "../images/companion/PapasCheddarBacon.jpg"
+                  }
+            ],
             "postres": [
                   {
                         "id": 17,
                         "name": "Tiramisu",
                         "description": "Porción para 2 personas -Vainillas emulsionadas con café -Queso crema-Cacao",
                         "price": 1200,
-                        "picture": "../images/burgers/tiramisu.jpg",
+                        "picture": "../images/desserts/Tiramisu.jpg",
+                        "size": [
+                              {
+                                    "name": "Simple",
+                                    "price": 0,
+                                    "id": 1300
+                              }
+                        ]
+                  },{
+                        "id": 18,
+                        "name": "Choco Oreo",
+                        "description": "Porción para 2 personas -Vainillas emulsionadas con café -Queso crema-Cacao",
+                        "price": 1200,
+                        "picture": "../images/desserts/ChocoOreo.jpg",
+                        "size": [
+                              {
+                                    "name": "Simple",
+                                    "price": 0,
+                                    "id": 1300
+                              }
+                        ]
+                  },{
+                        "id": 19,
+                        "name": "Oreo",
+                        "description": "Porción para 2 personas -Vainillas emulsionadas con café -Queso crema-Cacao",
+                        "price": 1200,
+                        "picture": "../images/desserts/Oreo.jpg",
+                        "size": [
+                              {
+                                    "name": "Simple",
+                                    "price": 0,
+                                    "id": 1300
+                              }
+                        ]
+                  },{
+                        "id": 20,
+                        "name": "Chocolina",
+                        "description": "Porción para 2 personas -Vainillas emulsionadas con café -Queso crema-Cacao",
+                        "price": 1200,
+                        "picture": "../images/desserts/Chocolina.jpg",
                         "size": [
                               {
                                     "name": "Simple",
@@ -105,15 +226,7 @@
                         ]
                   }
             ],
-            "companion": [
-                  {
-                        "id": 22,
-                        "name": "Papas Fritas Garage",
-                        "description": "Tremendas fritas con cheddar,bacon,cebolla de verdeo,huevo",
-                        "price": 1200,
-                        "picture": "../images/companion/papas-fritas-garage.jpg"
-                  }
-            ],
+       
             "bebidas": [
                   {
                         "gaseosas": [
@@ -125,9 +238,9 @@
                               },
                               {
                                     "id": 502,
-                                    "name": "Lata de Pepsi white",
+                                    "name": "Lata de Pepsi black",
                                     "price": 0,
-                                    "description": "Lata marca Pepsi white 475cc"
+                                    "description": "Lata marca Pepsi black 475cc"
                               },
                               {
                                     "id": 503,

@@ -22,7 +22,7 @@ function PlaceCard({ place, onShow }) {
 
     return (
         <div className="overlay">
-            <Card className="text-center m-3 bg-white place-container">
+            <Card className="text-center m-3 bg-black place-container">
                 <Card.Header className="title-custom-font">
                     VAS A PEDIR EN:{" "}
                     {

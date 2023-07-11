@@ -1,6 +1,5 @@
 .delivery-container {
     background: #FC4B08;
-    box-shadow: 0 0 10px rgb(253, 223, 0.58);
     margin-top: 1.5rem;
     padding-top: 0.5rem;
     border-radius: 5px;
@@ -8,7 +7,7 @@
 }
 
 .delivery-label {
-    color: white;
+    color: black;
     font-family: 'Chedros';
     font-weight: 600;
     margin: 8px;

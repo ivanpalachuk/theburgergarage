@@ -11,7 +11,6 @@ function Header() {
           <img
             className="logoB"
             src="/images/Foto_Perfil_1.png"
-            width="100%"
             alt="Logo the box"
           />
         </Container>

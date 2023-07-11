@@ -13,12 +13,12 @@
 
 .quantity-counter {
     margin: 0 10px;
-    color: white;
+    color: black;
 }
 
 .btn-counter {
-    background-color: white;
-    color: FC4B08;
+    background-color: black;
+    color: #FC4B08;
     border: none;
     border-radius: 5px;
     cursor: pointer;

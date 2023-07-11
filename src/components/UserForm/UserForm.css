@@ -7,12 +7,12 @@
     margin-top: 20px;
     position: relative;
     background: #FC4B08;
-    box-shadow: 0 0 10px rgb(253, 223, 0.58);
+
     height: 200px;
 }
 
 .form-label {
-    color: white;
+    color: black;
     font-family: 'Chedros';
     font-weight: 600;
 }
@@ -31,7 +31,6 @@
     justify-content: center;
     background: #FC4B08;
     margin-top: 10px;
-    box-shadow: 0 0 10px rgb(253, 223, 0.58);
     height: 3.25rem;
     padding: 2px;
     width: 100%

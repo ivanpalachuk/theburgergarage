@@ -6,7 +6,9 @@
     z-index: 1;
     height: 127px;
     justify-content: center;
-    background-color: #FC4B08;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .categories-container.fixed {
@@ -14,7 +16,7 @@
     top: 0;
     left: 0;
     right: 0;
-    background-color: #FC4B08;
+    background-color: black;
     padding-top: 7px;
 }
 
@@ -24,6 +26,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #FC4B08;
 }
 
 .category-img-btn {
@@ -39,17 +42,20 @@
     align-items: center;
     cursor: pointer;
     overflow: hidden;
-    border-color: #white;
+    border-color: white;
+    background-color: #FC4B08;
 }
 
 .category-label {
     position: relative;
     right: 9px;
-    font-size: 13px;
-    color: #white;
+    font-size: 1rem;
+    color: #FC4B08;
     width: 100px;
     text-align: center;
     margin-top: 2px;
+    font-family: "Chedros";
+
 }
 
 @media (min-width: 720px) {
