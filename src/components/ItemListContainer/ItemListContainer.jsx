@@ -41,10 +41,10 @@ function ItemListContainer() {
             <Category categories={Object.keys(items)} />
             <div className="category-title" id="hamburguesas">HAMBURGUESAS</div>
             <ItemList items={items.hamburguesas} drinks={items.bebidas} companions={items.companion} dips={items.dips} extras={items.extras} />
-            <div className="category-title" id="postres">POSTRES</div>
-            <ItemList items={items.postres} drinks={items.bebidas} />
             <div className="category-title" id="companion">PARA PICAR</div>
             <ItemList items={items.companion} drinks={items.bebidas} />
+            <div className="category-title" id="postres">POSTRES</div>
+            <ItemList items={items.postres} drinks={items.bebidas} />
         </>
     )
 }
