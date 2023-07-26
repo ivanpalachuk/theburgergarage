@@ -4,18 +4,13 @@
                   {
                         "id": 2,
                         "name": "American Garage",
-                        "description": "Doble Medallon carne 120gr, doble cheddar por medallon,tomate, lechuga, cebolla, salsa mil islas",
-                        "price": 2600,
+                        "description": "Doble Medallon  de Carne 120gr, doble cheddar por medallon,tomate, lechuga, cebolla, salsa mil islas",
+                        "price": 3000,
                         "picture": "../images/burgers/AmericanGarage.jpg",
-                        "size": [
-                              {
-                                    "name": "Simple",
-                                    "price": 0,
-                                    "id": 201
-                              },
+                        "size": [                     
                               {
                                     "name": "Doble",
-                                    "price": 400,
+                                    "price": 0,
                                     "id": 202
                               },
                               {
@@ -27,35 +22,40 @@
                                     "name": "Cuádruple",
                                     "price": 1200,
                                     "id": 403
+                              },
+                              {
+                                    "name": "Simple",
+                                    "price": -400,
+                                    "id": 201
                               }
                         ]
                   },
                   {
                         "id": 3,
                         "name": "Royale",
-                        "description": "Medallon de Carne de 120gr, doble cheddar por medallon, bacon ahumado, cebolla caramelizada, huevo a la plancha, barbacoa",
-                        "price": 2800,
+                        "description": "Doble Medallon  de Carne 120gr, doble cheddar por medallon, bacon ahumado, cebolla caramelizada, huevo a la plancha, barbacoa",
+                        "price": 3200,
                         "picture": "../images/burgers/Royale.jpg",
                         "size": [
                               {
-                                    "name": "Simple",
-                                    "price": 0,
-                                    "id": 301
-                              },
-                              {
                                     "name": "Doble",
-                                    "price": 400,
-                                    "id": 302
+                                    "price": 0,
+                                    "id": 202
                               },
                               {
                                     "name": "Triple",
                                     "price": 800,
-                                    "id": 303
+                                    "id": 203
                               },
                               {
                                     "name": "Cuádruple",
                                     "price": 1200,
-                                    "id": 304
+                                    "id": 403
+                              },
+                              {
+                                    "name": "Simple",
+                                    "price": -400,
+                                    "id": 201
                               }
                         ]
                   },
@@ -63,28 +63,28 @@
                         "id": 4,
                         "name": "Oklahoma",
                         "description": "Doble Medallon de Carne de 120gr, doble cheddar por medallon, bacon ahumado, cebolla caramelizada, huevo a la plancha, barbacoa",
-                        "price": 2500,
+                        "price": 2900,
                         "picture": "../images/burgers/OKLAHOMA.jpg",
                         "size": [
                               {
-                                    "name": "Simple",
-                                    "price": 0,
-                                    "id": 301
-                              },
-                              {
                                     "name": "Doble",
-                                    "price": 400,
-                                    "id": 302
+                                    "price": 0,
+                                    "id": 202
                               },
                               {
                                     "name": "Triple",
                                     "price": 800,
-                                    "id": 303
+                                    "id": 203
                               },
                               {
                                     "name": "Cuádruple",
                                     "price": 1200,
-                                    "id": 304
+                                    "id": 403
+                              },
+                              {
+                                    "name": "Simple",
+                                    "price": -400,
+                                    "id": 201
                               }
                         ]
                   },
@@ -92,145 +92,145 @@
                         "id": 5,
                         "name": "Tasty Garage",
                         "description": "Doble Medallon de Carne de 120gr, doble cheddar por medallon, bacon ahumado, cebolla caramelizada, huevo a la plancha, barbacoa",
-                        "price": 2700,
+                        "price": 3100,
                         "picture": "../images/burgers/TastyGarage.jpg",
                         "size": [
-                              {
-                                    "name": "Simple",
-                                    "price": 0,
-                                    "id": 301
-                              },
-                              {
-                                    "name": "Doble",
-                                    "price": 400,
-                                    "id": 302
-                              },
-                              {
-                                    "name": "Triple",
-                                    "price": 800,
-                                    "id": 303
-                              },
-                              {
-                                    "name": "Cuádruple",
-                                    "price": 1200,
-                                    "id": 304
-                              }
+                        {
+                              "name": "Doble",
+                              "price": 0,
+                              "id": 202
+                        },
+                        {
+                              "name": "Triple",
+                              "price": 800,
+                              "id": 203
+                        },
+                        {
+                              "name": "Cuádruple",
+                              "price": 1200,
+                              "id": 403
+                        },
+                        {
+                              "name": "Simple",
+                              "price": -400,
+                              "id": 201
+                        }
                         ]
                   },
                   {
                         "id": 6,
                         "name": "Cheese",
-                        "description": "Medallon de Carne de 120gr, doble cheddar por medallon, bacon ahumado, cebolla caramelizada, huevo a la plancha, barbacoa",
-                        "price": 2400,
+                        "description": "Doble Medallon  de Carne 120gr, doble cheddar por medallon, bacon ahumado, cebolla caramelizada, huevo a la plancha, barbacoa",
+                        "price": 2800,
                         "picture": "../images/burgers/Cheese.jpg",
                         "size": [
                               {
-                                    "name": "Simple",
-                                    "price": 0,
-                                    "id": 301
-                              },
-                              {
                                     "name": "Doble",
-                                    "price": 400,
-                                    "id": 302
+                                    "price": 0,
+                                    "id": 202
                               },
                               {
                                     "name": "Triple",
                                     "price": 800,
-                                    "id": 303
+                                    "id": 203
                               },
                               {
                                     "name": "Cuádruple",
                                     "price": 1200,
-                                    "id": 304
+                                    "id": 403
+                              },
+                              {
+                                    "name": "Simple",
+                                    "price": -400,
+                                    "id": 201
                               }
                         ]
                   },
                   {
                         "id": 7,
                         "name": "Yankee",
-                        "description": "Medallon de Carne de 120gr, doble cheddar por medallon,ketchup-mostaza,cebolla Brunoise",
-                        "price": 2400,
+                        "description": "Doble Medallon  de Carne 120gr, doble cheddar por medallon,ketchup-mostaza,cebolla Brunoise",
+                        "price": 2900,
                         "picture": "../images/burgers/yankee.jpg",
                         "size": [
                               {
-                                    "name": "Simple",
-                                    "price": 0,
-                                    "id": 301
-                              },
-                              {
                                     "name": "Doble",
-                                    "price": 400,
-                                    "id": 302
+                                    "price": 0,
+                                    "id": 202
                               },
                               {
                                     "name": "Triple",
                                     "price": 800,
-                                    "id": 303
+                                    "id": 203
                               },
                               {
                                     "name": "Cuádruple",
                                     "price": 1200,
-                                    "id": 304
+                                    "id": 403
+                              },
+                              {
+                                    "name": "Simple",
+                                    "price": -400,
+                                    "id": 201
                               }
                         ]
                   },
                   {
                         "id": 8,
                         "name": "Bacon Garage",
-                        "description": "Medallon de Carne de 120gr, doble cheddar por medallon,bacon ahumado",
-                        "price": 2600,
+                        "description": "Doble Medallon  de Carne 120gr, doble cheddar por medallon,bacon ahumado",
+                        "price": 3000,
                         "picture": "../images/burgers/bacon.jpeg",
                         "size": [
                               {
-                                    "name": "Simple",
-                                    "price": 0,
-                                    "id": 301
-                              },
-                              {
                                     "name": "Doble",
-                                    "price": 400,
-                                    "id": 302
+                                    "price": 0,
+                                    "id": 202
                               },
                               {
                                     "name": "Triple",
                                     "price": 800,
-                                    "id": 303
+                                    "id": 203
                               },
                               {
                                     "name": "Cuádruple",
                                     "price": 1200,
-                                    "id": 304
+                                    "id": 403
+                              },
+                              {
+                                    "name": "Simple",
+                                    "price": -400,
+                                    "id": 201
                               }
                         ]
                   },
                   {
                         "id": 8,
                         "name": "Big Garage",
-                        "description": "Medallon de Carne de 120gr, doble cheddar por medallon, pepinillos, cebolla Brunoise, lechuga, salsa big",
-                        "price": 2600,
+                        "description": "Doble Medallon  de Carne 120gr, doble cheddar por medallon, pepinillos, cebolla Brunoise, lechuga, salsa big",
+                        "price": 3000,
                         "picture": "../images/burgers/big.jpeg",
                         "size": [
-                              {
-                                    "name": "Simple",
-                                    "price": 0,
-                                    "id": 301
-                              },
-                              {
-                                    "name": "Doble",
-                                    "price": 400,
-                                    "id": 302
-                              },
-                              {
-                                    "name": "Triple",
-                                    "price": 800,
-                                    "id": 303
-                              },
-                              {
-                                    "name": "Cuádruple",
-                                    "price": 1200,
-                                    "id": 304
-                              }
+                        {
+                              "name": "Doble",
+                              "price": 0,
+                              "id": 202
+                        },
+                        {
+                              "name": "Triple",
+                              "price": 800,
+                              "id": 203
+                        },
+                        {
+                              "name": "Cuádruple",
+                              "price": 1200,
+                              "id": 403
+                        },
+                        {
+                              "name": "Simple",
+                              "price": -400,
+                              "id": 201
+                        }
                         ]
                   }
             ],
