@@ -11,7 +11,7 @@ function DropdownAddOnsDips(props) {
     return (
         <>
             <Dropdown>
-                <Dropdown.Toggle variant='secondary'>¿Algún Dip para acompañar?</Dropdown.Toggle>
+                <Dropdown.Toggle variant='secondary'>¿Alguna Salsita para agregar?</Dropdown.Toggle>
                 <Dropdown.Menu>
                     <Form className='text-center'>
                         {dips.map((option) => (
@@ -23,7 +23,6 @@ function DropdownAddOnsDips(props) {
                                     type="checkbox"
                                     id={`inline-radio-${option.id}`}
                                     onChange={() => handleChange(option)}
-
                                 />
                             </div>
                         ))}

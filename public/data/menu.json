@@ -1,12 +1,11 @@
 {
       "categories": {
             "hamburguesas": [
-                  
                   {
                         "id": 2,
                         "name": "American Garage",
                         "description": "Doble Medallon carne 120gr, doble cheddar por medallon,tomate, lechuga, cebolla, salsa mil islas",
-                        "price": 2300,
+                        "price": 2600,
                         "picture": "../images/burgers/AmericanGarage.jpg",
                         "size": [
                               {
@@ -16,7 +15,7 @@
                               },
                               {
                                     "name": "Doble",
-                                    "price": 300,
+                                    "price": 400,
                                     "id": 202
                               },
                               {
@@ -26,7 +25,7 @@
                               },
                               {
                                     "name": "Cuádruple",
-                                    "price": 1300,
+                                    "price": 1200,
                                     "id": 403
                               }
                         ]
@@ -34,8 +33,8 @@
                   {
                         "id": 3,
                         "name": "Royale",
-                        "description": "Doble Medallon de Carne de 120gr, doble cheddar por medallon, bacon ahumado, cebolla caramelizada, huevo a la plancha, barbacoa",
-                        "price": 2900,
+                        "description": "Medallon de Carne de 120gr, doble cheddar por medallon, bacon ahumado, cebolla caramelizada, huevo a la plancha, barbacoa",
+                        "price": 2800,
                         "picture": "../images/burgers/Royale.jpg",
                         "size": [
                               {
@@ -45,7 +44,7 @@
                               },
                               {
                                     "name": "Doble",
-                                    "price": 300,
+                                    "price": 400,
                                     "id": 302
                               },
                               {
@@ -55,7 +54,7 @@
                               },
                               {
                                     "name": "Cuádruple",
-                                    "price": 1300,
+                                    "price": 1200,
                                     "id": 304
                               }
                         ]
@@ -64,7 +63,7 @@
                         "id": 4,
                         "name": "Oklahoma",
                         "description": "Doble Medallon de Carne de 120gr, doble cheddar por medallon, bacon ahumado, cebolla caramelizada, huevo a la plancha, barbacoa",
-                        "price": 2900,
+                        "price": 2500,
                         "picture": "../images/burgers/OKLAHOMA.jpg",
                         "size": [
                               {
@@ -74,7 +73,7 @@
                               },
                               {
                                     "name": "Doble",
-                                    "price": 300,
+                                    "price": 400,
                                     "id": 302
                               },
                               {
@@ -84,7 +83,7 @@
                               },
                               {
                                     "name": "Cuádruple",
-                                    "price": 1300,
+                                    "price": 1200,
                                     "id": 304
                               }
                         ]
@@ -93,7 +92,7 @@
                         "id": 5,
                         "name": "Tasty Garage",
                         "description": "Doble Medallon de Carne de 120gr, doble cheddar por medallon, bacon ahumado, cebolla caramelizada, huevo a la plancha, barbacoa",
-                        "price": 2900,
+                        "price": 2700,
                         "picture": "../images/burgers/TastyGarage.jpg",
                         "size": [
                               {
@@ -103,7 +102,7 @@
                               },
                               {
                                     "name": "Doble",
-                                    "price": 300,
+                                    "price": 400,
                                     "id": 302
                               },
                               {
@@ -113,7 +112,7 @@
                               },
                               {
                                     "name": "Cuádruple",
-                                    "price": 1300,
+                                    "price": 1200,
                                     "id": 304
                               }
                         ]
@@ -121,8 +120,8 @@
                   {
                         "id": 6,
                         "name": "Cheese",
-                        "description": "Doble Medallon de Carne de 120gr, doble cheddar por medallon, bacon ahumado, cebolla caramelizada, huevo a la plancha, barbacoa",
-                        "price": 2900,
+                        "description": "Medallon de Carne de 120gr, doble cheddar por medallon, bacon ahumado, cebolla caramelizada, huevo a la plancha, barbacoa",
+                        "price": 2400,
                         "picture": "../images/burgers/Cheese.jpg",
                         "size": [
                               {
@@ -132,7 +131,7 @@
                               },
                               {
                                     "name": "Doble",
-                                    "price": 300,
+                                    "price": 400,
                                     "id": 302
                               },
                               {
@@ -142,7 +141,94 @@
                               },
                               {
                                     "name": "Cuádruple",
-                                    "price": 1300,
+                                    "price": 1200,
+                                    "id": 304
+                              }
+                        ]
+                  },
+                  {
+                        "id": 7,
+                        "name": "Yankee",
+                        "description": "Medallon de Carne de 120gr, doble cheddar por medallon,ketchup-mostaza,cebolla Brunoise",
+                        "price": 2400,
+                        "picture": "../images/burgers/yankee.jpg",
+                        "size": [
+                              {
+                                    "name": "Simple",
+                                    "price": 0,
+                                    "id": 301
+                              },
+                              {
+                                    "name": "Doble",
+                                    "price": 400,
+                                    "id": 302
+                              },
+                              {
+                                    "name": "Triple",
+                                    "price": 800,
+                                    "id": 303
+                              },
+                              {
+                                    "name": "Cuádruple",
+                                    "price": 1200,
+                                    "id": 304
+                              }
+                        ]
+                  },
+                  {
+                        "id": 8,
+                        "name": "Bacon Garage",
+                        "description": "Medallon de Carne de 120gr, doble cheddar por medallon,bacon ahumado",
+                        "price": 2600,
+                        "picture": "../images/burgers/bacon.jpeg",
+                        "size": [
+                              {
+                                    "name": "Simple",
+                                    "price": 0,
+                                    "id": 301
+                              },
+                              {
+                                    "name": "Doble",
+                                    "price": 400,
+                                    "id": 302
+                              },
+                              {
+                                    "name": "Triple",
+                                    "price": 800,
+                                    "id": 303
+                              },
+                              {
+                                    "name": "Cuádruple",
+                                    "price": 1200,
+                                    "id": 304
+                              }
+                        ]
+                  },
+                  {
+                        "id": 8,
+                        "name": "Big Garage",
+                        "description": "Medallon de Carne de 120gr, doble cheddar por medallon, pepinillos, cebolla Brunoise, lechuga, salsa big",
+                        "price": 2600,
+                        "picture": "../images/burgers/big.jpeg",
+                        "size": [
+                              {
+                                    "name": "Simple",
+                                    "price": 0,
+                                    "id": 301
+                              },
+                              {
+                                    "name": "Doble",
+                                    "price": 400,
+                                    "id": 302
+                              },
+                              {
+                                    "name": "Triple",
+                                    "price": 800,
+                                    "id": 303
+                              },
+                              {
+                                    "name": "Cuádruple",
+                                    "price": 1200,
                                     "id": 304
                               }
                         ]
@@ -160,14 +246,14 @@
                         "id": 23,
                         "name": "Papas Fritas Crunch",
                         "description": "Tremendas fritas con cheddar,bacon,cebolla de verdeo,huevo",
-                        "price": 1200,
+                        "price": 700,
                         "picture": "../images/companion/PapasCrunch.jpg"
                   },
                   {
                         "id": 24,
                         "name": "Papas Cheddar Bacon",
                         "description": "Tremendas fritas con cheddar,bacon,cebolla de verdeo,huevo",
-                        "price": 1200,
+                        "price": 900,
                         "picture": "../images/companion/PapasCheddarBacon.jpg"
                   }
             ],
@@ -176,7 +262,7 @@
                         "id": 17,
                         "name": "Tiramisu",
                         "description": "Porción para 2 personas -Vainillas emulsionadas con café -Queso crema-Cacao",
-                        "price": 1200,
+                        "price": 1400,
                         "picture": "../images/desserts/Tiramisu.jpg",
                         "size": [
                               {
@@ -185,11 +271,12 @@
                                     "id": 1300
                               }
                         ]
-                  },{
+                  },
+                  {
                         "id": 18,
                         "name": "Choco Oreo",
                         "description": "Porción para 2 personas -Vainillas emulsionadas con café -Queso crema-Cacao",
-                        "price": 1200,
+                        "price": 1400,
                         "picture": "../images/desserts/ChocoOreo.jpg",
                         "size": [
                               {
@@ -198,11 +285,12 @@
                                     "id": 1300
                               }
                         ]
-                  },{
+                  },
+                  {
                         "id": 19,
                         "name": "Oreo",
                         "description": "Porción para 2 personas -Vainillas emulsionadas con café -Queso crema-Cacao",
-                        "price": 1200,
+                        "price": 1400,
                         "picture": "../images/desserts/Oreo.jpg",
                         "size": [
                               {
@@ -211,11 +299,12 @@
                                     "id": 1300
                               }
                         ]
-                  },{
+                  },
+                  {
                         "id": 20,
                         "name": "Chocolina",
                         "description": "Porción para 2 personas -Vainillas emulsionadas con café -Queso crema-Cacao",
-                        "price": 1200,
+                        "price": 1400,
                         "picture": "../images/desserts/Chocolina.jpg",
                         "size": [
                               {
@@ -226,7 +315,6 @@
                         ]
                   }
             ],
-       
             "bebidas": [
                   {
                         "gaseosas": [
@@ -266,15 +354,21 @@
                         "aguas": [
                               {
                                     "id": 506,
-                                    "name": "Agua Saborizada Awafrut",
+                                    "name": "Agua Saborizada Sierra de los padres naranja",
                                     "price": 0,
                                     "description": "Botellita Awafrut Manzana 475cc"
                               },
                               {
                                     "id": 507,
-                                    "name": "Agua Saborizada Awafrut",
+                                    "name": "Agua Saborizada Sierra de los padres pomelo",
                                     "price": 0,
                                     "description": "Botellita Awafrut Pomelo 475cc"
+                              },
+                              {
+                                    "id": 509,
+                                    "name": "Agua Saborizada Sierra de los padres Manzana",
+                                    "price": 0,
+                                    "description": "Botellita Awafrut Manzana 475cc"
                               },
                               {
                                     "id": 508,
@@ -294,161 +388,77 @@
                         "cervezas": [
                               {
                                     "id": 509,
-                                    "name": "Andes Origen Roja",
+                                    "name": "Lata de cerveza",
                                     "price": 300,
                                     "description": "Roja"
-                              },
-                              {
-                                    "id": 510,
-                                    "name": "Andes IPA Andina",
-                                    "price": 300,
-                                    "description": "Roja"
-                              },
-                              {
-                                    "id": 511,
-                                    "name": "Andes Origen Rubia",
-                                    "price": 300,
-                                    "description": "Rubia"
-                              },
-                              {
-                                    "id": 512,
-                                    "name": "Andes Origen Negra",
-                                    "price": 300,
-                                    "description": "Negra"
-                              },
-                              {
-                                    "id": 513,
-                                    "name": "Budweiser",
-                                    "price": 600,
-                                    "description": "Cerveza Budweiser"
-                              },
-                              {
-                                    "id": 514,
-                                    "name": "Corona",
-                                    "price": 800,
-                                    "description": "Cerveza Corona"
-                              },
-                              {
-                                    "id": 515,
-                                    "name": "Patagonia",
-                                    "price": 750,
-                                    "description": "Birra Patagonia"
                               }
-                        ]
-                  },
-                  {
-                        "tragos": [
-                              {
-                                    "id": 516,
-                                    "name": "Fernet",
-                                    "price": 900,
-                                    "description": "Fernet"
-                              },
-                              {
-                                    "id": 517,
-                                    "name": "Campari",
-                                    "price": 900,
-                                    "description": "Roja"
-                              },
-                              {
-                                    "id": 518,
-                                    "name": "Cinzano",
-                                    "price": 750,
-                                    "description": "Rubia"
-                              },
-                              {
-                                    "id": 519,
-                                    "name": "GinTonic",
-                                    "price": 900,
-                                    "description": "Negra"
-                              },
-                              {
-                                    "id": 520,
-                                    "name": "Aperol",
-                                    "price": 1000,
-                                    "description": "Cerveza Budweiser"
-                              },
-                              {
-                                    "id": 521,
-                                    "name": "Pinguino de vino",
-                                    "price": 1000,
-                                    "description": "Cerveza Corona"
-                              }
+                             
                         ]
                   }
+                
             ],
             "extras": [
                   {
                         "id": 7010,
                         "name": "Cebolla Caramelizada",
                         "description": "",
-                        "price": 400
-                  },
-                  {
-                        "id": 7020,
-                        "name": "Cebolla Morada",
-                        "description": "",
-                        "price": 300
+                        "price": 150
                   },
                   {
                         "id": 7030,
                         "name": "Lechuga",
                         "description": "",
-                        "price": 300
+                        "price": 150
                   },
                   {
                         "id": 7040,
                         "name": "Tomate",
                         "description": "",
-                        "price": 300
-                  },
-                  {
-                        "id": 7050,
-                        "name": "Rucula",
-                        "description": "",
-                        "price": 200
+                        "price": 150
                   },
                   {
                         "id": 7060,
                         "name": "Pepinillos",
                         "description": "",
-                        "price": 300
+                        "price": 200
                   },
                   {
                         "id": 7070,
                         "name": "Cheddar",
                         "description": "",
-                        "price": 350
+                        "price": 200
                   },
                   {
                         "id": 7080,
                         "name": "Bacon",
                         "description": "",
-                        "price": 400
+                        "price": 200
                   },
                   {
                         "id": 7090,
                         "name": "Huevo",
                         "description": "",
-                        "price": 300
+                        "price": 200
+                  }
+            ],
+            "dips": [
+                  {
+                        "id": 7010000,
+                        "name": "Cheddar",
+                        "description": "",
+                        "price": 100
                   },
                   {
-                        "id": 7100,
-                        "name": "Provoleta",
+                        "id": 70300000,
+                        "name": "Ketchup",
                         "description": "",
-                        "price": 500
+                        "price": 100
                   },
                   {
-                        "id": 7110,
-                        "name": "Cebolla Crispy",
+                        "id": 7040,
+                        "name": "Mayonesa",
                         "description": "",
-                        "price": 300
-                  },
-                  {
-                        "id": 7120,
-                        "name": "Queso Azul",
-                        "description": "",
-                        "price": 400
+                        "price": 100
                   }
             ]
       }

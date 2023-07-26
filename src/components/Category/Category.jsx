@@ -55,7 +55,7 @@ function Category({ categories }) {
 
   return (
     <div className="categories-container" ref={categoriesRef}>
-      {categories.slice(0, categories.length - 2).map((category) => (
+      {categories.slice(0, categories.length - 3).map((category) => (
         <div key={category} className="category-container">
           <button className="category-img-btn" onClick={() => handleClick(category)}>
             <div className="category-img" style={{ backgroundImage: `url(${backgroundImageMap[category]})` }}></div>

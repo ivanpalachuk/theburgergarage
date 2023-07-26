@@ -11,7 +11,7 @@ function DropdownAddOnsCompanions(props) {
     return (
         <>
             <Dropdown>
-                <Dropdown.Toggle variant='secondary'>¿Sumás algo para picar?</Dropdown.Toggle>
+                <Dropdown.Toggle variant='secondary'>¿Algo para picar?</Dropdown.Toggle>
                 <Dropdown.Menu>
                     <Form className='text-center'>
                         {companions.map((option) => (

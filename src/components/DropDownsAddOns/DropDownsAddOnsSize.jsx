@@ -18,7 +18,7 @@ function DropdownAddOnsSize(props) {
     <>
       <Dropdown className="d-inline mx-2" onSelect={handleSelect}>
         <Dropdown.Toggle id="dropdown-button-light-example1" variant="secondary">
-          ¿Cuantos medallones querés?
+          ¿Medallones extra?
         </Dropdown.Toggle>
         <Dropdown.Menu className="dropdown-menu-center">
           <Form>

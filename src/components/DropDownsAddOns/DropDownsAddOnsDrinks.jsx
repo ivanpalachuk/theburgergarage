@@ -12,7 +12,7 @@ function DropdownAddOnsDrinks(props) {
     return (
         <Dropdown className="d-inline mx-2">
             <Dropdown.Toggle id="dropdown-autoclose-true" variant="secondary">
-                ¿Alguna Bebida?
+                ¿Que Bebida Elegis?
             </Dropdown.Toggle>
             <Dropdown.Menu>
                 {drinks.map((category) => {
